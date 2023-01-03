@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "TestTask"
+include ':app'
+include ':feature'
+include ':core'
+include ':core:data'
+include ':feature:start_screen'
+include ':core:domain'
+include ':feature:web_screen'
+include ':feature:game_start_screen'
+include ':feature:game_play_screen'
+include ':feature:game_shop_screen'

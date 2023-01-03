@@ -1,0 +1,5 @@
+<resources>
+    <string name="your_win_is_0">Your win is 0</string>
+    <string name="your_last_win_is_0">Your last win is 0</string>
+    <string name="spin">spin</string>
+</resources>
